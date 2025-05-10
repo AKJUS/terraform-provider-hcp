@@ -1,8 +1,7 @@
 module github.com/hashicorp/terraform-provider-hcp
 
 go 1.23
-
-toolchain go1.23.8
+toolchain go1.24.1
 
 require (
 	github.com/cenkalti/backoff v2.2.1+incompatible
@@ -111,7 +110,7 @@ require (
 	go.opentelemetry.io/otel v1.32.0 // indirect
 	go.opentelemetry.io/otel/metric v1.32.0 // indirect
 	go.opentelemetry.io/otel/trace v1.32.0 // indirect
-	golang.org/x/crypto v0.33.0 // indirect
+	golang.org/x/crypto v0.35.0 // indirect
 	golang.org/x/mod v0.22.0 // indirect
 	golang.org/x/net v0.34.0 // indirect
 	golang.org/x/oauth2 v0.24.0 // indirect
